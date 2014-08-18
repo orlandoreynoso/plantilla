@@ -213,8 +213,10 @@ box-shadow: 0px 10px 30px 3px rgba(119, 119, 119, 0.66);
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 */	
-/* background:#74b32f;   */
+/* 	background:#008350;   */
 	margin:0px auto; 
+	clear: both;
+	float: left;
 }
 
 #slider { 

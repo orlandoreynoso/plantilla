@@ -11,14 +11,16 @@ if(!defined('WB_URL')) {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
-		<title><?php page_title(' - ', '[WEBSITE_TITLE][SPACER][PAGE_TITLE]'); ?></title>
-		<link rel="shortcut icon" href="<?php echo WB_URL; ?>/media/recursos/favicon.ico" type="image/x-icon"/>		
-		<meta name="description" content="<?php  page_description(); ?>" />
-		<meta name="keywords" content="<?php  page_keywords(); ?>" />	
+	<meta name="viewport" content="width=device-width, minimum-scale = 1, maximum-scale=1" />	
+	
+	<title><?php page_title(' - ', '[WEBSITE_TITLE][SPACER][PAGE_TITLE]'); ?></title>
+	<link rel="shortcut icon" href="<?php echo WB_URL; ?>/media/recursos/favicon.ico" type="image/x-icon"/>		
+	<meta name="description" content="<?php  page_description(); ?>" />
+	<meta name="keywords" content="<?php  page_keywords(); ?>" />	
 	
 	
 	
