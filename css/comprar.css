@@ -1,0 +1,811 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ================= CONTENIDO CATEGORIAS ================= */
+.color01{
+	font-weight:bold;
+	color:#F00;
+	font-size:14px;	
+}
+
+
+.producto_x{
+	float:left;
+	width:50%;
+	margin-right:4px;
+}
+
+.producto_x #codigo01{
+	width:50%;
+	margin-right:2px;
+	float:left;	
+}
+
+.producto_x #codigo01 #codigo02{
+	clear:both;
+	width:100%;	
+}
+
+
+.producto_x #labe01{
+	clear:both;
+	font-weight:bold;
+	color:#969696;
+	font-size:14px;
+}
+
+.producto_x #labe02{
+	clear:both;	
+	color:#0e6e8e;
+	font-size:14px;
+}
+
+.cuadro_pedido{
+	clear:both;
+	width:100%;
+	margin:0 0 2px 0;
+	padding:0 0 2px 0;
+	background-color:#F30;
+}
+
+.cuadro_pedido ul,
+.cuadro_pedido2 ul,
+.cuadro_pedido3 ul,
+.cuadro_pedido4 ul{ clear:both; width:100%;}
+
+.cuadro_pedido ul li,
+.cuadro_pedido2 ul li, 
+.cuadro_pedido3 ul li,
+.cuadro_pedido4 ul li{ 
+	float:left; 
+	background-color:#3F3;
+	margin:0 1px 0 0;
+	padding:2px;
+	border:1px dashed #000000;
+	min-width:70px;
+	font-size:13px;
+}
+
+
+.cuadro_pedido2{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background-color:#FC0;
+	float:left;
+	width:40px;
+}
+
+.cuadro_pedido3{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background-color:#3CF;
+	float:left;
+}
+
+.cuadro_pedido4{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background-color:#963;
+	float:left;
+}
+
+
+/* ============================================================= */
+#contenido-categorias{
+	clear:both;
+	min-height:400px;
+	margin:0;
+	padding:0;
+}
+
+#contenido-categorias table{
+	margin:0;
+	padding:0;
+	}
+
+#contenido-categorias table tr{
+	border:none;
+	margin:4px 0px 0px 4px;
+	padding:10px 0px 10px 6px;
+}
+
+#contenido-categorias table td{
+	border:none;	
+}
+/*
+
+#contenido-categorias table a{
+	display:block;
+	margin:10px 0px 4px 5px;
+	padding:10px 0px 0px 0px;
+	text-align:center;
+}
+*/
+#contenido-categorias table tr td a img{
+	text-align:center;
+	margin:0 auto 5px auto;
+	padding:0;
+
+    border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	background-color:#fff;
+	display:block;
+}
+
+
+/* TRAIDO DEL FRONTEND para modificar el table_body.htm*/
+
+
+/* ================= GENERAL ================= */
+
+/*. titulo: listado de productos en mi carreta*/
+.mod_bakery_h_f {
+	background-image:url(../img/Cart-icon.png);
+	background-repeat:no-repeat; 
+	clear:both;
+	display:block;
+	height:60px;
+	text-align:left;
+	margin:0px 10px 2px 10px;
+	padding:4px 12px 10px 80px;
+	text-decoration:none;
+	font-weight:bold;
+	border-bottom:1px solid #635c55;
+	font-size:13px;
+}      
+/*...listao de ornedes*/
+
+.mod_bakery_ordernum_f {
+	background-image:url(../img/checklist-icon1.png);
+	background-repeat:no-repeat; 
+	clear:both;
+	display:block;
+	height:65px;
+	text-align:left;
+	margin:0px 10px 2px 10px;
+	padding:4px 12px 0px 80px;
+	text-decoration:none;
+	font-weight:bold;
+	border-bottom:1px solid #635c55;
+}
+.mod_bakery_hr_f {
+	
+}
+
+.nota_compra{
+	background-image:url(../img/cash-register-icon.png);
+	background-repeat:no-repeat; 
+	clear:both;
+	display:block;
+	height:75px;
+	text-align:left;
+	margin:0px 10px 2px 10px;
+	padding:4px 12px 10px 80px;
+	text-decoration:none;
+	font-weight:bold;
+	border-bottom:1px solid #635c55;
+}
+
+
+.comprando{
+	background-image:url(../img/shopping-bag-icon.png);
+	background-repeat:no-repeat; 
+	clear:both;
+	display:block;
+	height:auto;
+	text-align:left;
+	margin:0px 10px 2px 10px;
+	padding:4px 12px 10px 80px;
+	text-decoration:none;
+	font-weight:bold;
+	border-bottom:1px solid #635c55;
+	color:#d93e39;
+	font-size:14px;
+}
+
+.dbutton {
+	clear:both;
+	width: 100px; 
+	height: 40px;
+	margin:2px 0 0 0;
+	padding:0;
+	background-color: #474E69; 
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
+}
+
+.dbutton:hover,.dbutton:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	background-color:#8dc73f;
+	
+}
+
+
+.olvido{
+	clear:both;
+	width:150px;
+	color:#453c34;
+	background-color:#fff;
+	margin:10px 0 0 0;
+	padding:0;
+}
+
+.numeral{ 
+	font: bold 11px Tahoma, Geneva, sans-serif; 
+	color:#d93e39; 
+	padding:5px 5px 5px 5px; 
+	margin:0px 0px 0px 0px;
+	display:inline;
+}
+
+
+input, textarea {
+/*	text-transform:capitalize;*/
+	padding: 4px;
+/**	border: 1px solid #E5E5E5;*/
+/*	width: 250px; */
+/*	height:16px;*/
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
+
+textarea {
+	min-width:150px;
+	min-width:80px;
+	line-height: 18px;
+}
+
+
+input:hover, textarea:hover,input:focus, textarea:focus {
+/*	border-color: 1px solid #C9C9C9;*/
+/*    border: 1px solid green;*/
+	box-shadow: rgba(102, 10, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(102, 10, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(102, 10, 0, 0.1) 0px 0px 8px;	
+}
+
+/* Estilo por defecto */
+input:required:invalid, textarea:required:invalid {
+    border: 1px solid #d93e39;
+}
+
+input:required:valid, textarea:required:valid, input:visited {
+    border: 1px solid green;
+}
+
+/*==================================================================*/
+
+
+/* MAIN PAGE */
+
+.mod_bakery_main_div_cart_bt_f {
+	text-align: left;
+}
+.mod_bakery_main_td_f {
+	text-align: center;
+
+}
+.mod_bakery_main_thumb_f {
+	border: none;
+}
+.mod_bakery_main_img_f {
+	border: none;
+}
+.mod_bakery_main_title_f {
+/*	font-weight: bold;*/
+}
+.mod_bakery_main_in_stock_f {
+	color: green;
+}
+.mod_bakery_main_short_of_stock_f {
+	color: orange;
+}
+.mod_bakery_main_out_of_stock_f {
+	color: red;
+}
+.mod_bakery_main_stock_img_f {
+	border: red 1px; 
+}
+.mod_bakery_main_input_f {
+	text-align: right;
+}
+.mod_bakery_main_select_f {
+	width: 100px;
+}
+
+
+
+/*==============================================================*/
+
+/* ITEM PAGE */
+
+.mod_bakery_item_thumb_f {
+	border: none;
+}
+.mod_bakery_item_img_f {
+	border: none;
+}
+.mod_bakery_item_caption_f {
+	
+}
+.mod_bakery_item_table_f {
+	width: 75%;
+	text-align: left;
+}
+.mod_bakery_item_title_f {
+	font-weight: bold;
+}
+.mod_bakery_item_sku_f {
+	font-weight: bold;
+	visibility:hidden;	
+}
+.mod_bakery_item_stock_f {
+	font-weight: bold;
+	visibility:hidden;
+}
+
+.mod_bakery_item_in_stock_f {
+	color: green;
+}
+.mod_bakery_item_short_of_stock_f {
+	color: orange;
+}
+.mod_bakery_item_out_of_stock_f {
+	color: red;
+}
+.mod_bakery_item_stock_img_f {
+	border: red 1px; 
+}
+.mod_bakery_item_price_f {
+	font-weight: bold;
+	visibility:hidden;
+}
+.mod_bakery_item_shipping_f {
+	font-weight: bold;
+	visibility:hidden;	
+}
+.mod_bakery_item_full_desc_f {
+	font-weight: bold;
+}
+.mod_bakery_shipping_cost_f {
+	font-weight: bold;
+	visibility:hidden;
+}
+.mod_bakery_item_option_f {
+	font-weight: bold;
+}
+.mod_bakery_item_input_f {
+	text-align: right;
+}
+.mod_bakery_item_select_f {
+	
+}
+
+
+/* ================= CART table body ================= */
+
+
+/* PRECIO */
+.mod_bakery_cart_th_price_f {
+	width:auto;
+	text-align:left;
+	white-space: nowrap;
+	color:#FC0;
+	display:none;
+}
+
+.mod_bakery_cart_td_price_f {
+	text-align:left;
+	white-space: nowrap;
+	color:#3F9;
+	display:none;
+}
+
+/*..CANTIDAD 	*/
+.mod_bakery_cart_td_quantity_f {
+/*	text-align: right;*/
+	white-space: nowrap;
+	width:100px;
+	height:65px;
+	margin:0;
+	padding:0;
+}
+
+.formita1{
+	float:left;
+	width:auto;
+}
+
+.formita2{
+	float:left;
+	width:auto;
+	display: none;
+	visibility:hidden;		
+}
+
+
+/*======================================*/
+.mod_bakery_cart_subtotal_f {
+	text-align: right;
+	font-weight: bold;
+	line-height: 200%;
+	background-color:#393;
+	display:none;	
+}
+.mod_bakery_cart_shipping_f {
+	text-align: right;
+	font-weight: bold;
+	line-height: 75%;
+	background-color:#6F3;
+	display:none;	
+}
+.mod_bakery_cart_free_shipping_f {
+	text-align: right;
+	font-weight: bold;
+	line-height: 75%;
+	color: #FF0000;
+	background-color:#F66;
+	display:none;
+}
+
+
+/* CART table details */
+.mod_bakery_cart_currency_f {
+	font-size: 9px;
+	font-weight: normal;
+}
+.mod_bakery_cart_item_f {
+	font-weight: bold;
+}
+.mod_bakery_cart_item_desc_f {
+	font-size: 10px;
+}
+
+.mod_bakery_cart_tax_f {
+	text-align: right;
+	font-weight: bold;
+	line-height: 75%;
+	display:none;
+}
+.mod_bakery_cart_total_f {
+	text-align: right;
+	font-weight: bold;
+	line-height: 300%;
+	display:none;
+}
+
+/* CART table body */
+.mod_bakery_cart_td_thumb_f {
+	text-align: left;
+}
+.mod_bakery_cart_td_sku_f {
+	text-align: right;
+	display:none;
+
+}
+.mod_bakery_cart_td_name_f {
+	text-align: center;
+}
+.mod_bakery_cart_td_quantity_f {
+	text-align: right;
+	white-space: nowrap;
+}
+.mod_bakery_cart_td_quantity_f a img {
+	margin-bottom: -3px; 
+	border: none;
+}
+.mod_bakery_cart_td_price_f {
+	text-align: right;
+	white-space: nowrap;
+	display:none;
+}
+.mod_bakery_cart_td_shipping_f {
+	text-align: right;
+	white-space: nowrap;
+}
+.mod_bakery_cart_td_sum_f {
+	text-align: right;
+	white-space: nowrap;
+}
+
+
+/*=======================================*/
+.mod_bakery_cart_td_quantity_f table a{
+	margin:0;
+	padding:0;
+	display: none;
+	visibility:hidden;
+	background-color:#F30;
+}
+
+.mod_bakery_cart_td_quantity_f a {
+	border: none;
+	width:40px;
+	margin:0;
+	padding:0;
+	display: none;
+	visibility:hidden;		
+}
+
+.mod_bakery_cart_td_quantity_f img{
+	margin:0;
+	padding:0;
+	display: none;
+	visibility:hidden;	
+}
+
+
+.mod_bakery_cart_td_quantity_f input{
+	float:left;
+	width:40px;
+	text-align:center;
+	margin:0;
+	padding:0;	
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	box-sizing: border-box;	
+}
+
+/* ADDRESS FORM & ADDRESS */
+
+.mod_bakery_form_p_f {
+	font-style: italic;
+}
+.mod_bakery_form_label_f {
+	width: 25%;
+/*	text-align: right;
+	font-weight: bold; */
+	white-space: nowrap;
+	margin:0 10px 0 0;
+	padding:0 0 0 0;
+}
+
+.mod_bakery_form_input_f {
+	margin:4px 10px 0 10px;
+	padding:0 0 0 0;
+	width: 250px;
+	height:29px;
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;	  
+}
+
+/* Estilo por defecto */
+input:required:invalid, textarea:required:invalid {
+    border: 1px solid #d93e39;
+}
+
+input:required:valid, textarea:required:valid, input:visited {
+    border: 1px solid green;
+}
+
+.mod_bakery_address_h_f {
+	font-weight: bold;
+}
+.mod_bakery_address_p_f {
+	
+}
+.mod_bakery_tax_no_h_f {
+	font-weight: bold;
+}
+.mod_bakery_tax_no_p_f {
+	
+}
+
+
+/* ================= CARRETA ================= */
+
+.mod_bakery_main_div_cart_bt_f {
+	clear:both;
+	text-align: left;
+	margin:0 0 0 10px;
+	padding:0px;
+/*	background-color:#CF6;*/
+	display:block;
+}
+
+/* ================= botones ================= */
+
+.mod_bakery_bt_cart_f {
+	clear:both;
+/*	float:right;*/
+/*	width: 150px; 
+	height: 50px;
+	margin:0 0 10px 0;
+	padding:2px 0 0 60px; */
+/*	background-image:url(../img/Cart-icon_2.png);
+	background-repeat:no-repeat;
+	background-position:left;   */
+	background-color:#8dc73f;
+/*	color: #fff;**/
+	font-weight:bold;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
+}
+
+.mod_bakery_bt_cart_f,.mod_bakery_bt_cart_f:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+
+}
+
+
+.mod_bakery_bt_add_f {
+	
+}
+
+/*... CONTINUAR CON LA COMPRA.....*/
+.mod_bakery_bt_continue_f {
+	text-align:center;
+/*	text-transform:capitalize;*/
+	padding: 4px;
+	margin:10px 0 0 0;
+/**	border: 1px solid #E5E5E5;*/
+	width: 250px; 
+	height:40px;
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;	
+	
+}
+.mod_bakery_bt_update_f {
+	
+}
+.mod_bakery_bt_add_ship_form_f {
+
+	
+}
+
+
+
+.mod_bakery_bt_order_f {
+	width:150px;
+	height:40px;
+	color:#000;
+	font-weight:bold;	
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;			
+}
+
+
+.mod_bakery_bt_order_f:hover,.mod_bakery_bt_order_f:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	color:#000;	
+}
+
+
+
+.mod_bakery_bt_quit_f {
+	
+}
+.mod_bakery_bt_modify_address_f {
+	
+}
+.mod_bakery_bt_pay_cod_f {
+	width: 98%;
+}
+.mod_bakery_bt_pay_advance_f {
+	width: 98%;
+}
+.mod_bakery_bt_pay_invoice_f {
+	width: 98%;
+}
+.mod_bakery_bt_pay_paypal_f {
+	width: 98%;
+}
+.mod_bakery_bt_pay_mollie_f {
+	width: 70%;
+}
+.mod_bakery_bt_pay_payment-network_f {
+	width: 98%;
+}
+
+/*.....	mensajes......................*/
+
+.mod_bakery_error_f {
+	clear:both;
+	text-align: center;
+	color: red;
+	margin-top: 5px;
+/*	border: solid 1px red;
+	background-color: #FFDCD9; */
+	background-image:url(../img/error.gif);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+}
+
+
+.mod_bakery_error_f p {
+	padding-left: 60px;
+	padding-right: 6px;
+	color:#d93e39;	
+}
+/*................*/
+#rellenito1{
+	background-color:#99cc33;
+	height:10px;	
+}
+
+#catalogo{
+	background-color:#99cc33;
+	clear:both;
+	width:904px;
+	margin:4px 0px 12px 0px;
+	padding:6px 0px 5px 10px;
+}
+
+#cuadro-complementario{
+	width:221px;
+	margin:4px 4px 2px 0px;
+	padding:0px 0px 0px 0px;
+	float:left;
+
+}
+
+
+
+#cuadros{
+	width:219px;
+	min-height:200px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 2px 0px;
+	background-color:#ffffff;
+}
+
+
+
+#cuadros h2{
+	display:block;
+	width:204px;
+/*	height:20px;*/
+	background-color:#e2e2e2;
+	margin:4px 4px 2px 4px;
+	padding:0px 0px 2px 6px;
+	text-align:left;
+	font-size:13px;
+	color:#333333;
+}
+
+#cuadros p{
+	display:block;
+	width:204px;
+/*	height:20px;*/
+	background-color:#e2e2e2;
+	margin:4px 4px 4px 4px;
+	padding:0px 0px 2px 6px;
+	text-align:center;
+	font-size:13px;
+	color:#333333;
+}
+
+
+
+/* ================= ================= */
+
+

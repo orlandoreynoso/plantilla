@@ -1,0 +1,74 @@
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+	#izquierda { width: 100%; }
+	#derecha { width: 100%; }
+	#caja01 { width: 100%; }
+	#cuadroLogo { width: 100%; }
+	#slogan { width: 100%; }	
+	#menu { width: 100%; }
+	#slider { width: 100%; }
+	#logo { width: 40%; }
+	#lista-productos { width: 100%; }
+	.face_comboni { width: 100%; }
+	#fb { width: 100%; }
+	#tw { width: 100%; }
+	#bienvenida { width: 100%; }
+	#cuadro_mapeo { width: 100%; }	
+	#cuadro_buscar { width: 100%; }
+	#cuadro_tiendas { width: 100%; }
+	#cuadro_redes { width: 100%; }
+	#direccion { width: 100%; }
+	#footer { width: 100%; }
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+	#izquierda { width: 100%; }
+	#derecha { width: 100%; }
+	#caja01 { width: 100%; }
+	#cuadroLogo { width: 100%; }
+	#slogan { width: 100%; }	
+	#menu { width: 100%; }
+	#slider { width: 100%; }
+	#logo { width: 40%; }
+	#lista-productos { width: 100%; }
+	.face_comboni { width: 100%; }	
+	#fb { width: 100%; }
+	#tw { width: 100%; }
+	#bienvenida { width: 100%; }
+	#cuadro_mapeo { width: 100%; }	
+	#cuadro_buscar { width: 100%; }
+	#cuadro_tiendas { width: 100%; }
+	#cuadro_redes { width: 100%; }
+	#direccion { width: 100%; }
+	#footer { width: 100%; }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+ 
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-width: 480px) {
+	#izquierda { width: 100%; }
+	#derecha { width: 100%; }
+	#caja01 { width: 100%; }
+	#cuadroLogo { width: 100%; }
+	#slogan { width: 100%; }	
+	#menu { width: 100%; }
+	#slider { width: 100%; }
+	#logo { width: 40%; }
+	#lista-productos { width: 100%; }
+	.face_comboni { width: 100%; }	
+	#fb { width: 100%; }
+	#tw { width: 100%; }
+	#bienvenida { width: 100%; }
+	#cuadro_mapeo { width: 100%; }	
+	#cuadro_buscar { width: 100%; }
+	#cuadro_tiendas { width: 100%; }
+	#cuadro_redes { width: 100%; }
+	#direccion { width: 100%; }
+	#footer { width: 100%; }
+
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'HoboStdMedium';
+    src: url('hobostd.eot');
+    src: url('hobostd.eot') format('embedded-opentype'),
+         url('hobostd.woff') format('woff'),
+         url('hobostd.ttf') format('truetype'),
+         url('hobostd.svg#HoboStdMedium') format('svg');
+}
